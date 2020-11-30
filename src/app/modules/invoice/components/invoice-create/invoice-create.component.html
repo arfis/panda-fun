@@ -1,0 +1,9 @@
+<h4>New invoice</h4>
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Invoice" [formControl]="invoiceNameControl">
+    </mat-form-field>
+
+    <button type='button' (click)="createInvoice()">CREATE</button>
+</form>

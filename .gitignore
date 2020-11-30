@@ -17,3 +17,5 @@
 
 # IDE - VSCode
 .vscode/*
+
+src/app/store/firebase.config.ts
